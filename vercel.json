@@ -17,5 +17,9 @@
       "source": "/my-apps/(.*)",
       "destination": "/$1"
     }
+    {
+      "source": "/(.*)",
+      "destination": "/index.html"
+    }
   ]
 }
