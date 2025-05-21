@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "https://seo-serp-frontend-ya6x.vercel.app/static/css/main.03dc860a.css",
+    "main.js": "https://seo-serp-frontend-ya6x.vercel.app/static/js/main.468c9f78.js",
+    "static/js/239.9b3d809a.chunk.js": "https://seo-serp-frontend-ya6x.vercel.app/static/js/239.9b3d809a.chunk.js",
+    "static/js/977.ea07edc8.chunk.js": "https://seo-serp-frontend-ya6x.vercel.app/static/js/977.ea07edc8.chunk.js",
+    "static/js/732.0e2d0f09.chunk.js": "https://seo-serp-frontend-ya6x.vercel.app/static/js/732.0e2d0f09.chunk.js",
+    "static/js/453.54e1467c.chunk.js": "https://seo-serp-frontend-ya6x.vercel.app/static/js/453.54e1467c.chunk.js",
+    "index.html": "https://seo-serp-frontend-ya6x.vercel.app/index.html",
+    "main.03dc860a.css.map": "https://seo-serp-frontend-ya6x.vercel.app/static/css/main.03dc860a.css.map",
+    "main.468c9f78.js.map": "https://seo-serp-frontend-ya6x.vercel.app/static/js/main.468c9f78.js.map",
+    "239.9b3d809a.chunk.js.map": "https://seo-serp-frontend-ya6x.vercel.app/static/js/239.9b3d809a.chunk.js.map",
+    "977.ea07edc8.chunk.js.map": "https://seo-serp-frontend-ya6x.vercel.app/static/js/977.ea07edc8.chunk.js.map",
+    "732.0e2d0f09.chunk.js.map": "https://seo-serp-frontend-ya6x.vercel.app/static/js/732.0e2d0f09.chunk.js.map",
+    "453.54e1467c.chunk.js.map": "https://seo-serp-frontend-ya6x.vercel.app/static/js/453.54e1467c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.03dc860a.css",
+    "static/js/main.468c9f78.js"
+  ]
+}
