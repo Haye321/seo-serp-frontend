@@ -8,18 +8,16 @@
   ],
   "routes": [
     {
+      "src": "/favicon.ico",
+      "dest": "/favicon.ico"
+    },
+    {
+      "src": "/manifest.json",
+      "dest": "/manifest.json"
+    },
+    {
       "src": "/(.*)",
       "dest": "/index.html"
-    }
-  ]
-  "rewrites": [
-    {
-      "source": "/my-apps/(.*)",
-      "destination": "/$1"
-    }
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
     }
   ]
 }
