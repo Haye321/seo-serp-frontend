@@ -19,7 +19,7 @@ function App() {
           <Route path="/ranking" element={<Ranking />} />
           <Route path="/screenshots" element={<Screenshots />} />
         </Routes>
-        <Chatbot /> {/* Add Chatbot at the root level to appear on all routes */}
+        <Chatbot  /> {/* Add Chatbot at the root level to appear on all routes */}
       </div>
     </Router>
   );
