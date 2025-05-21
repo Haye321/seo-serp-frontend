@@ -12,4 +12,10 @@
       "dest": "/index.html"
     }
   ]
+  "rewrites": [
+    {
+      "source": "/my-apps/(.*)",
+      "destination": "/$1"
+    }
+  ]
 }
