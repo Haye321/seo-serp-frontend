@@ -134,26 +134,26 @@ function VisibilityTool() {
       setLoadingMultiForm(false);
     }
   };
-
-  const generateCSV = (data, headers) => {
-    const csvRows = [];
-    csvRows.push(headers.join(","));
-    data.forEach((item) => {
-      const values = headers.map((header) => {
-        let value = item[header];
-        if (value == null) value = "";
-        if (
-          typeof value === "string" &&
-          (value.includes(",") || value.includes('"'))
-        ) {
-          value = `"${value.replace(/"/g, '""')}"`;
-        }
-        return value;
-      });
-      csvRows.push(values.join(","));
+// eslint-disable-next-line no-unused-vars
+const generateCSV = (data, headers) => {
+  const csvRows = [];
+  csvRows.push(headers.join(","));
+  data.forEach((item) => {
+    const values = headers.map((header) => {
+      let value = item[header];
+      if (value == null) value = "";
+      if (
+        typeof value === "string" &&
+        (value.includes(",") || value.includes('"'))
+      ) {
+        value = `"${value.replace(/"/g, '""')}"`;
+      }
+      return value;
     });
-    return csvRows.join("\n");
-  };
+    csvRows.push(values.join(","));
+  });
+  return csvRows.join("\n");
+};
 
   const downloadCSV = (csvString, fileName) => {
     const blob = new Blob([csvString], { type: "text/csv" });
